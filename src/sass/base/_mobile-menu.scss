@@ -1,0 +1,86 @@
+
+.mobile-menu {
+    background-color: $mobileMenuBg;
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    &__list {
+        list-style: none;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.302;
+        padding-bottom: 50px;
+    }
+
+    &__item {
+        border-bottom: 1px solid $mobileMenuBorder;
+        padding: 13px 0px 13px 21px;
+    }
+
+    &__item:first-child {
+        border-top: 1px solid $mobileMenuBorder;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $primaryColor;
+
+        &:hover,
+        &:focus {
+            color: $mobileMenuHover;
+        }
+    }
+}
+
+.button__mobile {    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 19px;
+        padding-left: 60px;
+        height: 44px;
+        background-color: $primaryColor;
+
+        &:hover, 
+        &:focus {
+            background-color: $buttonHover;
+        }
+    }
+
+    .button_icon-bt-mark {
+        margin-top: 3px;
+        margin-left: 25px;
+        margin-right: 50px;
+    }
+
+    .button_icon-close {
+        position: absolute;
+        right: 28px;
+        top: 23px;
+        cursor: pointer;
+    }
+
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        width: 254px;
+
+        &__item {
+            padding: 13px 0px 13px 24px;
+        }
+    }
+
+    .button {
+        &_icon-close {
+            right: 34px;
+        }
+    }
+}
+
+
