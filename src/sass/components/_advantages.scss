@@ -1,0 +1,137 @@
+.advantages .container {
+  padding-bottom: 97px;
+}
+
+.advantages {
+  background-color: $backgroundColor;
+}
+
+.advantages__first-heading {
+  display: none;
+}
+
+.advantages__item--cow {
+  margin-bottom:16px;
+
+}
+
+.advantages__item--fruit {
+  margin-bottom:16px;
+
+}
+
+.advantages__item--heart {
+  margin-bottom:16px;
+}
+
+.advantages__paragraph {
+  width: 98px;
+  height: 56px;
+}
+
+.number {
+  font-family: $secondaryFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.advantages__description {
+  width: 230px;
+  height: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  color: $secondaryColor;
+}
+
+.advantages__group:not(:last-child) {
+  margin-bottom: 38px;
+}
+
+@media screen and (min-width:768px) {
+  .advantages .container {
+    padding-bottom: 140px;
+  }
+
+  .advantages__list {
+    display: flex;
+  }
+
+ .advantages__group {
+   display:block;
+
+ }
+
+ .advantages__group:not(:last-child) {
+   margin-bottom: 0px;
+ }
+
+ .advantages__group:not(:last-child) {
+  margin-right: 60px;
+ }
+
+.advantages__item--cow,
+.advantages__item--fruit,
+.advantages__item--heart {
+  margin-bottom:36px;
+
+}
+
+.number {
+  font-size: 48px;
+  line-height: 55px;
+  text-transform: none;
+}
+
+.advantages__description {
+  width: 180px;
+  height: 67px;
+  font-size: 14px;
+  line-height: 174%;
+}
+}
+
+@media screen and (min-width:1280px) {
+  .advantages__list {
+    display: flex;
+
+  }
+
+ .advantages__group {
+   display:block;
+ }
+
+ .advantages__group:not(:last-child) {
+   margin-bottom: 0px;
+ }
+
+ .advantages__group:not(:last-child) {
+  margin-right: 30px;
+ }
+.advantages__item--cow,
+.advantages__item--fruit,
+.advantages__item--heart {
+  margin-bottom:40px;
+
+}
+
+.number {
+  font-size: 58px;
+  line-height: 66px;
+  margin-bottom: 15px;
+  text-transform: none;
+}
+
+.advantages__description {
+  width: 330px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 176%;
+  letter-spacing: 0.02em;
+}
+}

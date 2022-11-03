@@ -1,0 +1,179 @@
+.location-btn {
+    background-color: $mainTextColor;
+    border-radius: 22px;
+    border: 0;
+    color: $primaryColor;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='8' height='10' viewBox='0 0 8 10' fill='none' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath d='M1.61633 1L6.04401 5L1.61633 9' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3C/svg%3E");
+    background-size:5%;
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-position-x: 85%;
+    cursor: pointer;
+    
+}
+.franchise-btn {
+    background-color: $primaryColor;
+    border-radius: 22px;
+    border: 0;
+    color: $mainTextColor ;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='7' height='10' viewBox='0 0 7 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.42041 1L5.70162 5L1.42041 9' stroke='%23D41443' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-position: center 51%;
+    background-position-x: 85%;
+    cursor: pointer;
+}
+.franchise-btn:hover {
+    background-color: #ECEBEB;
+    border-radius: 22px;
+    border: 0;
+    color: $mainTextColor ;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='7' height='10' viewBox='0 0 7 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.42041 1L5.70162 5L1.42041 9' stroke='%23D41443' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-position: center 51%;
+    background-position-x: 85%;
+}
+.text-btn
+{
+    padding-left: 17px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 5px;
+    }
+
+@media screen and (min-width: 768px) {
+    .text-btn {
+    padding-left: 30px;
+    padding-right: 53px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    }
+} 
+@media screen and (min-width: 1280px)
+  {
+.text-btn {
+        padding-left: 35px;
+        padding-right: 54px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+  }
+.text-btn-franchise
+{
+    padding-left: 30px;
+    padding-right: 49px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+} 
+
+@media screen and (min-width: 768px) {
+.text-btn-franchise {
+        padding-left: 38px;
+        padding-right: 56px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+ @media screen and (min-width: 1280px)
+ {
+.text-btn-franchise {
+        padding-left: 39px;
+        padding-right: 58px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+ }
+
+.btns-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ @media screen and (min-width: 768px) {
+.btns-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+    flex-direction: row;
+}
+ }
+ @media screen and (min-width: 1280px) {
+     .btns-container {
+         display: flex;
+         justify-content: center;
+         flex-direction: row;
+         margin-top: 66px;
+         align-items: center;
+     }
+ }
+ @media screen and (min-width: 768px) {
+ .location-btn {
+     background-color: $mainTextColor;
+     border-radius: 22px;
+     border: 0;
+     color: $primaryColor;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 21px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin-bottom: 0px;
+     margin-right: 15px;
+ }
+}
+
+@media screen and (min-width: 1280px) {
+    .location-btn {
+            background-color: $mainTextColor;
+            border-radius: 22px;
+            border: 0;
+            color: $primaryColor;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-right: 15px;
+        }
+                .franchise-btn {
+                    background-color: $primaryColor;
+                    border-radius: 22px;
+                    border: 0;
+                    color: $mainTextColor ;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 21px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    
+                }
+ }

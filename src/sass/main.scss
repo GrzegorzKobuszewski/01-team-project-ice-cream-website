@@ -1,7 +1,20 @@
 
 @import "./utils/variables";
+@import "./utils/contacts";
 @import "./base/commons";
 @import "./base/container";
-@import "./base/mobile-menu";
-@import "./components/button";
 
+@import "./components/button";
+@import "./components/header";
+@import "./layouts/products";
+@import "./base/about";
+@import "./components/advantages";
+@import "./components/gallery";
+@import "./base/last-child";
+@import "./components/cards";
+@import "./components/cards-list-first-list";
+@import "./components/buttons-contacts";
+@import "./layouts/customerreviews";
+@import "./components/footer";
+
+@import "./base/mobile-menu";

@@ -1,0 +1,37 @@
+.gallery__heading {
+  display: none;
+}
+
+.gallery {
+  position: relative;
+  height: 122px;
+  background-image: linear-gradient(
+  to top,
+  $primaryColor 60%,
+  $backgroundColor 40%
+  );
+ }
+
+
+.gallery__picture {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 18px;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .gallery {
+    height: 264px;
+  }
+}
+
+
+@media screen and (min-width:1280px) {
+  .gallery {
+      height: 430px;
+    }
+}

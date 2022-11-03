@@ -1,0 +1,11 @@
+.last-child {
+    padding-bottom: 43px;
+}
+@media screen and (min-width: 1280px) 
+{
+.last-child {
+    padding-bottom: 43px;
+    display: flex;
+    flex-direction: column;
+}
+}
