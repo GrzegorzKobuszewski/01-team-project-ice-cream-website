@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://GrzegorzKobuszewski.github.io/ice-cream-website-team-project",
+  "homepage": "https://GrzegorzKobuszewski.github.io/01-team-project-ice-cream-website",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /ice-cream-website-team-project/"
+    "build": "parcel build src/*.html --public-url /01-team-project-ice-cream-website/"
   },
   "repository": {
     "type": "git",
